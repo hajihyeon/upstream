@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 int main(){
-
-  printf("Hello World");
-  return 0;
+  int a;
+  scanf("%d", &a);
   
+  printf("Hello World");
+  
+  printf("%d", a);
+  return 0; 
 }
